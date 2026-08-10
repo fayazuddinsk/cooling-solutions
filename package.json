@@ -1,0 +1,14 @@
+{
+  "name": "cooling-solutions-production",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "build": "node -e \"console.log('Production files are already compiled in public/')\"",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
